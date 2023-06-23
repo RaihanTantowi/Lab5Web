@@ -1,0 +1,145 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Content styles */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tabel-container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tabel th,
+.tabel td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.id_barang {
+    width: 50px;
+}
+
+/* Form styles */
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+}
+
+.form input[type="text"] {
+    width: 150px;
+    height: 28px;
+}
+
+.form input[type="submit"],
+.tambah {
+    padding: 10px 10px;
+    background-color: #0b4e85;
+    color: #fff;
+    border: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Footer styles */
+footer {
+    position: fixed; /* Ubah menjadi "position: absolute" jika ingin menggunakan position: absolute */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav a {
+        margin-right: 5px;
+    }
+
+    .content,
+    .tabel-container {
+        padding: 10px;
+    }
+
+    .form input[type="text"] {
+        padding: 5px;
+    }
+
+    .form input[type="submit"],
+    .tambah {
+        padding: 10px 10px;
+        margin-right: 5px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+    
+}
